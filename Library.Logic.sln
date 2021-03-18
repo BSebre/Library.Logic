@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Logic", "Library.Logic\Library.Logic.csproj", "{ED11D064-4166-4D43-84F3-758EBD45F01E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryConsole", "LibraryConsole\LibraryConsole.csproj", "{4ADD078F-5100-4D45-9891-D179A5BC5AFE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.WEB", "Library.WEB\Library.WEB.csproj", "{0022B994-C49E-420E-A257-B86D62844433}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTML", "HTML", "{2441E341-083D-48D8-A045-D844B8BD1864}"
+	ProjectSection(SolutionItems) = preProject
+		bootstrap.html = bootstrap.html
+		mystyles.css = mystyles.css
+		Sample.html = Sample.html
+		style.css = style.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTML_home_work", "HTML_home_work", "{C4F5BE3C-7131-49F0-98C3-CB43625481D4}"
+	ProjectSection(SolutionItems) = preProject
+		styleHW.css = styleHW.css
+		Tasks.html = Tasks.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTML_homework_Table", "HTML_homework_Table", "{475DF139-E3AF-49C6-8F0C-31333BC3A76F}"
+	ProjectSection(SolutionItems) = preProject
+		HTMLTable.html = HTMLTable.html
+		Styles.css = Styles.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewsApp", "NewsApp", "{34749963-0119-4B36-BCAD-75518B8E7575}"
+	ProjectSection(SolutionItems) = preProject
+		ABout.html = ABout.html
+		news.html = news.html
+		NewsApp.html = NewsApp.html
+		NewsApp_Themes.html = NewsApp_Themes.html
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsWeb", "NewsWeb\NewsWeb.csproj", "{E579F81C-74F6-4FD4-918E-707BEBAC6D4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsLogic", "NewsLogic\NewsLogic.csproj", "{DEBC6971-91CD-4219-A3AD-101E033BE540}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleDB", "SampleDB\SampleDB.csproj", "{2757056F-C437-4BB7-AB74-1C502DEA2421}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsConsole", "NewsConsole\NewsConsole.csproj", "{0F23571A-D79F-4FDA-99B3-A367467DDBCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED11D064-4166-4D43-84F3-758EBD45F01E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED11D064-4166-4D43-84F3-758EBD45F01E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED11D064-4166-4D43-84F3-758EBD45F01E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED11D064-4166-4D43-84F3-758EBD45F01E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ADD078F-5100-4D45-9891-D179A5BC5AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ADD078F-5100-4D45-9891-D179A5BC5AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ADD078F-5100-4D45-9891-D179A5BC5AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ADD078F-5100-4D45-9891-D179A5BC5AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0022B994-C49E-420E-A257-B86D62844433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0022B994-C49E-420E-A257-B86D62844433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0022B994-C49E-420E-A257-B86D62844433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0022B994-C49E-420E-A257-B86D62844433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E579F81C-74F6-4FD4-918E-707BEBAC6D4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E579F81C-74F6-4FD4-918E-707BEBAC6D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E579F81C-74F6-4FD4-918E-707BEBAC6D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E579F81C-74F6-4FD4-918E-707BEBAC6D4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEBC6971-91CD-4219-A3AD-101E033BE540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEBC6971-91CD-4219-A3AD-101E033BE540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEBC6971-91CD-4219-A3AD-101E033BE540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEBC6971-91CD-4219-A3AD-101E033BE540}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2757056F-C437-4BB7-AB74-1C502DEA2421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2757056F-C437-4BB7-AB74-1C502DEA2421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2757056F-C437-4BB7-AB74-1C502DEA2421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2757056F-C437-4BB7-AB74-1C502DEA2421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F23571A-D79F-4FDA-99B3-A367467DDBCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F23571A-D79F-4FDA-99B3-A367467DDBCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F23571A-D79F-4FDA-99B3-A367467DDBCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F23571A-D79F-4FDA-99B3-A367467DDBCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B71537F-AC8F-446E-840F-A9768420238D}
+	EndGlobalSection
+EndGlobal

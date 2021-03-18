@@ -1,0 +1,48 @@
+﻿.dif-font{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.location-left{
+    float: left;
+}
+.location-right{
+  float: right;
+}
+.crossed {
+    text-decoration: line-through;
+}
+.color-red {
+    color: red;
+}
+.background {
+    background-color: gray;
+}
+.style{
+    font-style: oblique;
+}
+.first-box, .second-box, .third-box, .fourth-box, .fifth-box, .sixt-box{
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+   }
+.first-box{
+    border: 1px solid red;
+    color: red;
+}
+.second-box{
+    border: 2px solid blue;
+    color: blue;
+}
+.third-box {
+    border: 1px solid red;
+    color: red;
+}
+.fourth-box{
+    border: 1px solid black;
+}
+.fifth-box{
+    border: 1px solid black;
+    background: black;
+    color: white;
+}
+.sixt-box {
+    border: 1px solid black;
+}
